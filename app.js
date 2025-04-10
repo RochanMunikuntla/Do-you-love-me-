@@ -1,6 +1,5 @@
 const path = require('path');
 const express = require('express');
-const open = require('open');
 const app = express();
 
 const isPkg = typeof process.pkg !== 'undefined';
@@ -32,7 +31,4 @@ const PORT = 3000;
 
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
-  setTimeout(() => {
-    open(`http://localhost:${PORT}`);
-  }, 500);
 });

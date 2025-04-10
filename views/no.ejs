@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHYYYYY</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Rubik+Spray+Paint&display=swap" rel="stylesheet">
+    <style>
+        .font {
+            font-family: "Chewy", system-ui;
+            font-weight: 400;
+            font-size: 70px;
+            font-style: normal;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            background-color: bisque;
+        }
+
+        button {
+            border-radius: 15px;
+            border: 1px solid black;
+            padding: 9px;
+            margin-left: 30px;
+            background-color: #edafb8;
+            cursor: pointer;
+        }
+
+        .button-group {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .emoji{
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ahhhhh</h1>
+    <p class="emoji"><% for(let i = 0;i<noCount;i++){ %>
+         🥺
+        <% } %>
+    </p>
+    <p>(one last chance.. say yes)</p>
+    <form action="/answer">
+        <div class="button-group">
+            <button name="love" value="yes">YES BABYGIRL!!!</button>
+            <button name="love" value="no">Nope</button>
+        </div>
+    </form>
+</body>
+
+</html>
